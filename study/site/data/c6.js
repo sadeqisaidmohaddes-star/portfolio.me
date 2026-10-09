@@ -234,7 +234,7 @@
   Q("c6-006", "c6-mid", 8, T("Price rises from $4 to $6. Quantity falls from 120 to 80. Using the midpoint formula, |E| =", "قیمت از 4 دالر به 6 دالر بالا می‌رود. مقدار از 120 به 80 پایین می‌آید. با فورمول نقطه میانی، |E| ="), [
     O("0.67", "0.67", "That is the simple-percent answer (33% ÷ 50%). MyLab will mark it wrong.", "این جواب فیصدی ساده است (33% ÷ 50%). MyLab غلط حساب می‌کند."),
     O("1.0", "1.0", "Yes. ΔQ = −40, avg Q = 100 → −40%. ΔP = 2, avg P = 5 → 40%. 40 ÷ 40 = 1.", "بلی. ΔQ = −40، اوسط Q = 100 ← −40%. ΔP = 2، اوسط P = 5 ← 40%. 40 ÷ 40 = 1.", true),
-    O("1.5", "1.5", "You divided price by quantity: upside down! Q goes on top.", "قیمت را بر مقدار تقسیم کردی: سرچپه! Q بالا می‌رود."),
+    O("1.5", "1.5", "You flipped it (simple percents: 50% ÷ 33%) and skipped the midpoint. Q goes on top.", "سرچپه تقسیم کردی (فیصدی ساده: 50% ÷ 33%) و از نقطهٔ وسط استفاده نکردی. Q بالا می‌رود."),
     O("20", "20", "That is ΔQ ÷ ΔP in units (40 ÷ 2). Slope stuff, not percents.", "این ΔQ ÷ ΔP به واحد است (40 ÷ 2). کار شیب، نه فیصدی.")],
     T("Like splitting a taxi fare: you use the middle point so nobody pays extra.", "مثل تقسیم کرایهٔ تکسی: نقطهٔ وسط را می‌گیری تا کسی اضافه نپردازد."),
     T("Midpoint: divide by the AVERAGE, not the start.", "نقطه میانی: بر اوسط تقسیم کن، نه بر شروع."),
@@ -383,7 +383,7 @@
 
   Q("c6-024", "c6-tr", 7, T("Why does no profit-maximizing firm set its price in the inelastic part of demand?", "چرا هیچ شرکت حداکثرکنندهٔ مفاد قیمت را در بخش بی‌کشش تقاضا نمی‌گذارد؟"), [
     O("Because lowering the price there would raise revenue", "چون کم کردن قیمت آنجا عاید را بالا می‌برد", "Backwards! In the inelastic part, lowering price LOWERS revenue.", "سرچپه! در بخش بی‌کشش، کم کردن قیمت عاید را پایین می‌آورد."),
-    O("Because raising the price there would raise revenue and lower costs (fewer units)", "چون بالا بردن قیمت آنجا عاید را بالا و مصرف را پایین می‌آورد (تولید کمتر)", "Yes. More money in, fewer units to make. Easy win, so they keep raising.", "بلی. پول بیشتر، تولید کمتر. برد آسان، پس قیمت را بالا می‌برند.", true),
+    O("Because raising the price there would raise revenue and lower costs (fewer units)", "چون بالا بردن قیمت آنجا عاید را بالا و خرچ را پایین می‌آورد (تولید کمتر)", "Yes. More money in, fewer units to make. Easy win, so they keep raising.", "بلی. پول بیشتر، تولید کمتر. برد آسان، پس قیمت را بالا می‌برند.", true),
     O("Because the government does not allow it", "چون حکومت اجازه نمی‌دهد", "No law here. Just smart math.", "قانونی نیست. فقط حساب زیرکانه."),
     O("Because demand is vertical there", "چون تقاضا آنجا عمودی است", "Inelastic does not mean perfectly vertical. It just means |E| < 1.", "بی‌کشش یعنی کاملاً عمودی نیست. فقط |E| < 1.")],
     T("If you could earn more by working fewer hours, would you stop there? No, you would keep going.", "اگر با کار کمتر بیشتر کمائی کنی، آنجا می‌ایستی؟ نه، ادامه می‌دهی."),

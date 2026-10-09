@@ -63,7 +63,7 @@
         b("Where the two curves cross you get one price {{equilibrium price}} and one amount {{equilibrium quantity}}.", "جایی که دو منحنی یکدیگر را قطع می‌کنند یک قیمت {{equilibrium price}} و یک مقدار {{equilibrium quantity}} داریم."),
         b("Price too high: stuff piles up unsold {{surplus}}. Sellers cut the price.", "قیمت زیاد بالا: جنس فروش‌نرفته جمع می‌شود {{surplus}}. فروشنده‌ها قیمت را پایین می‌آورند."),
         b("Price too low: not enough for everyone {{shortage}}. The price gets pushed up.", "قیمت زیاد پایین: برای همه کافی نیست {{shortage}}. قیمت بالا می‌رود."),
-        b("Careful: this \"surplus\" means extra stuff on the shelf. It is NOT \"consumer surplus\" from Chapter 4. Same word, different idea.", "دقت: این «مازاد9 یعنی جنس اضافی روی قفسه. این «مازاد مصرف‌کننده9 {{consumer surplus}} فصل 4 نیست. کلمه یکی، معنا جدا.")
+        b("Careful: this \"surplus\" means extra stuff on the shelf. It is NOT \"consumer surplus\" from Chapter 4. Same word, different idea.", "دقت: این «مازاد» یعنی جنس اضافی روی قفسه. این «مازاد مصرف‌کننده» {{consumer surplus}} فصل 4 نیست. کلمه یکی، معنا جدا.")
       ],
       worked: { q: b("Price | Qd | Qs: $4 | 60 | 20 ; $6 | 40 | 40 ; $8 | 20 | 60. Find equilibrium. What happens at $8?", "قیمت | تقاضا | عرضه: 4 دالر | 60 | 20 ؛ 6 دالر | 40 | 40 ؛ 8 دالر | 20 | 60. تعادل را پیدا کن. به 8 دالر چه می‌شود؟"),
         steps: [b("Look for the row where Qd = Qs: $6, 40 units. That is equilibrium.", "سطری را پیدا کن که تقاضا = عرضه: 6 دالر، 40 دانه. این تعادل است."), b("At $8: Qs 60, Qd 20. Extra 40 units sit unsold.", "به 8 دالر: عرضه 60، تقاضا 20. 40 دانه فروش نمی‌رود."), b("That is a surplus of 40, so the price falls toward $6.", "این مازاد 40 است، پس قیمت به طرف 6 دالر پایین می‌آید.")] },
@@ -83,9 +83,9 @@
         "منوی رستورانت. قیمت کمتر روی منو؟ فقط یک سطر دیگر از همان منو را انتخاب می‌کنی {{change in quantity demanded}}. روز معاش یا یک غذای مُد شده؟ رستورانت یک منوی کاملاً نو چاپ می‌کند، با فرمایش بیشتر به هر قیمت {{change in demand}}."),
       body: [
         b("Golden question: What changed, the good's own price or something else?", "سؤال طلایی: چه تغییر کرد، قیمت خود همان جنس یا چیز دیگر؟"),
-        b("Own price → move along the curve. Say \"quantity demanded\" (or \"quantity supplied\").", "قیمت خودش ← حرکت روی منحنی. بگو «مقدار تقاضاشده9 (یا «مقدار عرضه‌شده9)."),
-        b("Anything else → the curve shifts. Say \"demand\" (or \"supply\") increased or decreased.", "هر چیز دیگر ← منحنی جابه‌جا می‌شود. بگو «تقاضا9 (یا «عرضه9) زیاد یا کم شد."),
-        b("A lower price never \"increases demand\". It increases quantity demanded.", "قیمت کمتر هیچ‌وقت «تقاضا را زیاد9 نمی‌کند. مقدار تقاضاشده را زیاد می‌کند.")
+        b("Own price → move along the curve. Say \"quantity demanded\" (or \"quantity supplied\").", "قیمت خودش ← حرکت روی منحنی. بگو «مقدار تقاضاشده» (یا «مقدار عرضه‌شده»)."),
+        b("Anything else → the curve shifts. Say \"demand\" (or \"supply\") increased or decreased.", "هر چیز دیگر ← منحنی جابه‌جا می‌شود. بگو «تقاضا» (یا «عرضه») زیاد یا کم شد."),
+        b("A lower price never \"increases demand\". It increases quantity demanded.", "قیمت کمتر هیچ‌وقت «تقاضا را زیاد» نمی‌کند. مقدار تقاضاشده را زیاد می‌کند.")
       ],
       worked: { q: b("Netflix cuts its price. More people sign up. Shift or movement?", "نتفلیکس قیمتش را کم کرد. مردم بیشتری عضو شدند. جابه‌جایی یا حرکت؟"),
         steps: [b("Golden question: what changed? Netflix's own price.", "سؤال طلایی: چه تغییر کرد؟ قیمت خود نتفلیکس."), b("Own price → slide along the same demand curve.", "قیمت خودش ← لغزیدن روی همان منحنی تقاضا."), b("Answer: quantity demanded increased. Demand did not change.", "جواب: مقدار تقاضاشده زیاد شد. تقاضا تغییر نکرد.")] },
@@ -96,7 +96,7 @@
       explain: { prompt: b("Explain the difference between a change in demand and a change in quantity demanded.", "فرق تغییر در تقاضا و تغییر در مقدار تقاضاشده را بگو."),
         model: b("A change in quantity demanded is a slide along the curve caused only by the good's own price. A change in demand is the whole curve shifting, caused by anything else, like income or tastes.", "تغییر در مقدار تقاضاشده لغزیدن روی منحنی است که فقط از قیمت خود جنس می‌آید. تغییر در تقاضا جابه‌جایی کل منحنی است که از هر چیز دیگر می‌آید، مثل عاید یا سلیقه."),
         checks: [b("Own price → movement along.", "قیمت خودش ← حرکت روی منحنی."), b("Other factors → shift of the whole curve.", "عوامل دیگر ← جابه‌جایی کل منحنی."), b("Gave an example of each.", "برای هر کدام یک مثال دادم.")] },
-      joke: b("Saying \"the price fell so demand rose\" costs more points than any price cut ever saved.", "گفتن «قیمت پایین آمد پس تقاضا بالا رفت9 بیشتر از هر تخفیفی نمره‌ات را می‌خورد.") },
+      joke: b("Saying \"the price fell so demand rose\" costs more points than any price cut ever saved.", "گفتن «قیمت پایین آمد پس تقاضا بالا رفت» بیشتر از هر تخفیفی نمره‌ات را می‌خورد.") },
 
     { id: "c3-dshift", ch: "c3",
       title: b("What moves the demand curve (TRIBE)", "چه چیزی منحنی تقاضا را جابه‌جا می‌کند (TRIBE)"),
@@ -107,7 +107,7 @@
         b("Income up: people buy more of most goods {{normal good}}, but less of cheap stand-ins like instant noodles or bus rides {{inferior good}}.", "عاید بالا: مردم بیشتر اکثر اجناس را می‌خرند {{normal good}}، ولی کمتر چیزهای ارزان جایگزین مثل نودل فوری یا سرویس {{inferior good}}."),
         b("Goods used instead of each other {{substitutes}}: price of one up → demand for the other up. Same direction.", "اجناسی که به جای هم استفاده می‌شوند {{substitutes}}: قیمت یکی بالا ← تقاضای دیگری بالا. هم‌جهت."),
         b("Goods used together {{complements}}: price of one up → demand for the other down. Opposite direction.", "اجناسی که با هم استفاده می‌شوند {{complements}}: قیمت یکی بالا ← تقاضای دیگری پایین. برعکس."),
-        b("Expect a higher price later → buy more now. Textbook version TRIPE swaps Buyers for Population/demographics.", "اگر انتظار قیمت بالاتر در آینده باشد ← حالا بیشتر بخر. نسخهٔ کتاب TRIPE به جای خریداران «نفوس/دموگرافی9 دارد.")
+        b("Expect a higher price later → buy more now. Textbook version TRIPE swaps Buyers for Population/demographics.", "اگر انتظار قیمت بالاتر در آینده باشد ← حالا بیشتر بخر. نسخهٔ کتاب TRIPE به جای خریداران «نفوس/دموگرافی» دارد.")
       ],
       worked: { q: b("The price of tortillas rises. What happens to demand for taco fillings?", "قیمت نان تورتیا بالا رفت. تقاضای مواد داخل تاکو چه می‌شود؟"),
         steps: [b("Tortillas and fillings are used together: complements.", "تورتیا و مواد داخلش با هم استفاده می‌شوند: مکمل."), b("Complements move opposite: tortilla price up → fewer tacos made.", "مکمل‌ها برعکس حرکت می‌کنند: قیمت تورتیا بالا ← تاکوی کمتر."), b("Demand for fillings decreases. The curve shifts left.", "تقاضای مواد کم می‌شود. منحنی به چپ می‌رود.")] },
@@ -171,7 +171,7 @@
       body: [
         b("Same direction (both right or both left): quantity is certain, price is unclear {{ambiguous}}.", "هم‌جهت (هر دو راست یا هر دو چپ): مقدار مطمئن است، قیمت نامعلوم {{ambiguous}}."),
         b("Opposite directions: price is certain, quantity is unclear.", "برعکس هم: قیمت مطمئن است، مقدار نامعلوم."),
-        b("\"Cannot tell\" is a real, correct exam answer here, but only for the one that is unclear.", "«نمی‌شود گفت9 این‌جا جواب درست امتحان است، ولی فقط برای همان یکی که نامعلوم است.")
+        b("\"Cannot tell\" is a real, correct exam answer here, but only for the one that is unclear.", "«نمی‌شود گفت» این‌جا جواب درست امتحان است، ولی فقط برای همان یکی که نامعلوم است.")
       ],
       worked: { q: b("Gas: more people buy cars (demand up) and new drilling tech arrives (supply up). What happens to P and Q?", "تیل: مردم بیشتری موتر می‌خرند (تقاضا بالا) و تکنالوژی نو استخراج می‌آید (عرضه بالا). قیمت و مقدار چه می‌شود؟"),
         steps: [
@@ -223,7 +223,7 @@
       [b("Is your 1st slice of pizza worth more or less than your 6th?", "قطعهٔ اول پیتزا بیشتر ارزش دارد یا قطعهٔ ششم؟"), b("More. So you'd pay more for it.", "بیشتر. پس برایش بیشتر می‌پردازی.")]),
     q("c3-004", "c3-demand", 0,
       "Which of these is the official name for \"how much people want to buy at one particular price\"?",
-      "نام رسمی «مقداری که مردم به یک قیمت مشخص می‌خواهند بخرند9 کدام است؟",
+      "نام رسمی «مقداری که مردم به یک قیمت مشخص می‌خواهند بخرند» کدام است؟",
       [o("Quantity demanded", "مقدار تقاضاشده (quantity demanded)", "Right. One price, one amount: quantity demanded.", "درست. یک قیمت، یک مقدار: quantity demanded.", 1),
        o("Demand", "تقاضا (demand)", "Demand is the whole curve, every price at once. Too big for one price.", "تقاضا کل منحنی است، همهٔ قیمت‌ها با هم. برای یک قیمت زیادی بزرگ است."),
        o("Marginal cost", "هزینهٔ نهایی (marginal cost)", "That one lives on the supply side, behind the factory door.", "این یکی طرف عرضه زندگی می‌کند، پشت دروازهٔ فابریکه.")],
@@ -255,7 +255,7 @@
       [o("the lowest price a seller would accept for one more unit (its marginal cost).", "کمترین قیمتی که فروشنده برای یک دانهٔ دیگر قبول می‌کند (هزینهٔ نهایی).", "Right. Supply is the marginal cost curve.", "درست. عرضه همان منحنی هزینهٔ نهایی است.", 1),
        o("the most a buyer would pay for one more unit.", "بیشترین پولی که خریدار برای یک دانهٔ دیگر می‌دهد.", "That is the demand curve's job: marginal benefit.", "این کار منحنی تقاضا است: ارزش نهایی."),
        o("the seller's total profit.", "کل مفاد فروشنده.", "Profit isn't drawn here. Nice ambition though.", "مفاد این‌جا رسم نشده. ولی آرزوی خوبی است.")],
-      b("A garage sale sign: \"I won't let this go for less than $5.\"", "تابلوی فروش دست دوم: «کمتر از 5 دالر نمی‌دهم.9"),
+      b("A garage sale sign: \"I won't let this go for less than $5.\"", "تابلوی فروش دست دوم: «کمتر از 5 دالر نمی‌دهم.»"),
       b("Supply = seller's minimum = marginal cost.", "عرضه = حداقل فروشنده = هزینهٔ نهایی."),
       [b("Which curve shows the buyer's side?", "کدام منحنی طرف خریدار را نشان می‌دهد؟"), b("Demand.", "تقاضا.")]),
     q("c3-008", "c3-supply", 1,
@@ -312,7 +312,7 @@
        o("an increase in demand.", "زیاد شدن تقاضا است.", "The most famous trap in the chapter. A price cut never shifts demand.", "مشهورترین دام فصل. تخفیف قیمت هیچ‌وقت تقاضا را جابه‌جا نمی‌کند."),
        o("a decrease in supply.", "کم شدن عرضه است.", "Nothing happened to sellers' costs here. Wrong curve, wrong direction.", "این‌جا برای خرچ فروشنده چیزی نشد. منحنی اشتباه، جهت اشتباه.")],
       b("Walking down a hill you're already on, vs the hill itself moving.", "پایین رفتن از تپه‌ای که رویش هستی، در برابر حرکت خود تپه."),
-      b("Own price? Say \"quantity\".", "قیمت خودش؟ بگو «مقدار9."),
+      b("Own price? Say \"quantity\".", "قیمت خودش؟ بگو «مقدار»."),
       [b("Golden question: what changed?", "سؤال طلایی: چه تغییر کرد؟"), b("Avocados' own price.", "قیمت خود اواکادو.")]),
     q("c3-014", "c3-shiftmove", 1,
       "Netflix raises its monthly price, and some people cancel. Which is correct?",
@@ -325,7 +325,7 @@
       [b("Is a change in Netflix's own price a shifter of Netflix demand?", "آیا تغییر قیمت خود نتفلیکس عامل جابه‌جایی تقاضای نتفلیکس است؟"), b("No, it's a movement along.", "نه، حرکت روی منحنی است.")]),
     q("c3-015", "c3-shiftmove", 3,
       "Demand for gas increases, so the price of gas rises. A student says: \"The higher price then decreases demand, so demand shifts back left.\" What's wrong?",
-      "تقاضای تیل زیاد شد، پس قیمت بالا رفت. یک محصل می‌گوید: «قیمت بالاتر بعد تقاضا را کم می‌کند، پس تقاضا دوباره به چپ برمی‌گردد.9 اشتباه کجاست؟",
+      "تقاضای تیل زیاد شد، پس قیمت بالا رفت. یک محصل می‌گوید: «قیمت بالاتر بعد تقاضا را کم می‌کند، پس تقاضا دوباره به چپ برمی‌گردد.» اشتباه کجاست؟",
       [o("The higher price causes a movement along the new demand curve, not another shift.", "قیمت بالاتر حرکت روی منحنی تقاضای نو است، نه جابه‌جایی دیگر.", "Exactly. One shift, then price slides you to the new equilibrium. No boomerang.", "دقیقاً. یک جابه‌جایی، بعد قیمت تو را به تعادل نو می‌لغزاند. بومرنگ نیست.", 1),
        o("Nothing, demand does shift back.", "هیچ، تقاضا واقعاً برمی‌گردد.", "If curves bounced back from their own price, markets would never move. No boomerang.", "اگر منحنی‌ها با قیمت خودشان برگردند، بازار هیچ‌وقت حرکت نمی‌کرد. بومرنگ نیست."),
        o("The higher price shifts supply left.", "قیمت بالاتر عرضه را به چپ می‌برد.", "Own price doesn't shift supply either. It moves you up the supply curve.", "قیمت خودش عرضه را هم جابه‌جا نمی‌کند. تو را روی منحنی عرضه بالا می‌برد.")],
@@ -394,7 +394,7 @@
       [o("Demand today increases.", "تقاضای امروز زیاد می‌شود.", "Yes. Buy now before it gets pricier.", "بلی. حالا بخر قبل از این که گران شود.", 1),
        o("Demand today decreases.", "تقاضای امروز کم می‌شود.", "That's the seller's move. Buyers rush in, not out.", "این حرکت فروشنده است. خریدار هجوم می‌آورد، نه فرار."),
        o("Quantity demanded today falls.", "مقدار تقاضاشدهٔ امروز کم می‌شود.", "Today's price didn't change, so it's not a slide.", "قیمت امروز تغییر نکرد، پس لغزیدن نیست.")],
-      b("Hearing \"sale ends tonight\" makes you buy now.", "شنیدن «تخفیف امشب تمام می‌شود9 تو را حالا به خرید وامی‌دارد."),
+      b("Hearing \"sale ends tonight\" makes you buy now.", "شنیدن «تخفیف امشب تمام می‌شود» تو را حالا به خرید وامی‌دارد."),
       b("Buyers: expect higher → buy now.", "خریدار: انتظار گرانی ← حالا بخر."),
       [b("If bread will cost double tomorrow, when do you buy?", "اگر نان فردا دو برابر شود، کی می‌خری؟"), b("Today.", "امروز.")]),
     q("c3-023", "c3-dshift", 0,
@@ -409,7 +409,7 @@
       [b("What does TRIBE stand for?", "TRIBE مخفف چیست؟"), b("Tastes, Related goods, Income, Buyers, Expectations.", "سلیقه، اجناس مرتبط، عاید، خریداران، انتظارات.")]),
     q("c3-024", "c3-dshift", 14,
       "Basira says: \"Incomes rose, so the demand curve for instant noodles must shift right.\" She's wrong if instant noodles are…",
-      "بصیره می‌گوید: «عاید بالا رفت، پس منحنی تقاضای نودل فوری حتماً به راست می‌رود.9 اشتباه است اگر نودل فوری…",
+      "بصیره می‌گوید: «عاید بالا رفت، پس منحنی تقاضای نودل فوری حتماً به راست می‌رود.» اشتباه است اگر نودل فوری…",
       [o("an inferior good.", "جنس پست باشد.", "Yes. For inferior goods, more income → less demand → shift left.", "بلی. برای جنس پست، عاید بیشتر ← تقاضای کمتر ← به چپ.", 1),
        o("a normal good.", "جنس عادی باشد.", "For a normal good she'd be right. Then the noodles would be fancy!", "برای جنس عادی حق با او بود. آن‌وقت نودل لوکس می‌شد!"),
        o("a complement.", "مکمل باشد.", "Complements are about related goods' prices, not income.", "مکمل دربارهٔ قیمت اجناس مرتبط است، نه عاید.")],
@@ -524,7 +524,7 @@
       "اواکادو: تقاضا بالا رفت (مُد نان با اواکادو) و عرضه پایین آمد (خشکسالی). اگر جابه‌جایی تقاضا بزرگ‌تر از عرضه باشد، مقدار چه می‌شود؟",
       [o("Quantity rises (and price surely rises).", "مقدار بالا می‌رود (و قیمت حتماً بالا).", "Yes. Opposite shifts: price is sure to rise; the bigger demand shift wins for Q.", "بلی. جابه‌جایی برعکس: قیمت حتماً بالا؛ برای مقدار، تقاضای بزرگ‌تر برنده است.", 1),
        o("Quantity falls.", "مقدار پایین می‌رود.", "That's what happens if the drought wins. Here demand pulled harder.", "این وقتی است که خشکسالی برنده شود. این‌جا تقاضا زور بیشتر زد."),
-       o("Cannot tell, even with this information.", "نمی‌شود گفت، حتی با این معلومات.", "\"Cannot tell\" was true until they told you which shift is bigger. Now you can.", "«نمی‌شود گفت9 درست بود تا وقتی گفتند کدام بزرگ‌تر است. حالا می‌شود.")],
+       o("Cannot tell, even with this information.", "نمی‌شود گفت، حتی با این معلومات.", "\"Cannot tell\" was true until they told you which shift is bigger. Now you can.", "«نمی‌شود گفت» درست بود تا وقتی گفتند کدام بزرگ‌تر است. حالا می‌شود.")],
       b("A tug-of-war: once you know which team is stronger, you know where the rope goes.", "ریسمان‌کشی: وقتی بدانی کدام تیم قوی‌تر است، می‌دانی ریسمان کجا می‌رود."),
       b("Ambiguous until told the sizes. Then the bigger shift wins.", "نامعلوم تا اندازه‌ها را بگویند. بعد بزرگ‌تر برنده است."),
       [b("Demand up and supply down: which of P or Q is certain?", "تقاضا بالا و عرضه پایین: قیمت مطمئن است یا مقدار؟"), b("Price: it surely rises.", "قیمت: حتماً بالا می‌رود.")])
@@ -533,7 +533,7 @@
   // ---------------- SHORT ANSWER ----------------
   S.short = (S.short || []).concat([
     { id: "c3-sa1", ch: "c3", topic: "c3-shiftmove",
-      prompt: b("A news report says: \"Lower gas prices increased the demand for gas.\" Is this correct? Explain using the terms demand and quantity demanded.", "یک گزارش خبری می‌گوید: «قیمت کمتر تیل تقاضای تیل را زیاد کرد.9 آیا درست است؟ با کلمات demand و quantity demanded توضیح بده."),
+      prompt: b("A news report says: \"Lower gas prices increased the demand for gas.\" Is this correct? Explain using the terms demand and quantity demanded.", "یک گزارش خبری می‌گوید: «قیمت کمتر تیل تقاضای تیل را زیاد کرد.» آیا درست است؟ با کلمات demand و quantity demanded توضیح بده."),
       model: b("No. A change in gas's own price causes a movement along the demand curve. Lower gas prices increase the quantity demanded of gas. Demand (the whole curve) only shifts when something other than the good's own price changes, like income or tastes.", "نه. تغییر قیمت خود تیل باعث حرکت روی منحنی تقاضا می‌شود. قیمت کمتر تیل مقدار تقاضاشده (quantity demanded) را زیاد می‌کند. تقاضا (demand، کل منحنی) فقط وقتی جابه‌جا می‌شود که چیزی به جز قیمت خود جنس تغییر کند، مثل عاید یا سلیقه."),
       rubric: [b("Says the statement is incorrect.", "می‌گوید جمله نادرست است."), b("Says lower own price → increase in quantity demanded (movement along).", "می‌گوید قیمت کمتر خودش ← زیاد شدن مقدار تقاضاشده (حرکت روی منحنی)."), b("Says demand shifts only from other factors, with an example.", "می‌گوید تقاضا فقط با عوامل دیگر جابه‌جا می‌شود، با یک مثال.")] },
     { id: "c3-sa2", ch: "c3", topic: "c3-single",
