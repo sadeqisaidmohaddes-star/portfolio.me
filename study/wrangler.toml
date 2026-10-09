@@ -1,0 +1,14 @@
+# Cloudflare Pages project for study.sadeqi.me (see DEPLOY.md)
+name = "study-sadeqi-me"
+pages_build_output_dir = "site"
+compatibility_date = "2026-09-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "econ206"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"   # printed by: npx wrangler d1 create econ206
+
+[vars]
+ACCESS_TEAM_DOMAIN = "https://REPLACE_TEAM.cloudflareaccess.com"
+ACCESS_AUD = "REPLACE_WITH_ACCESS_APPLICATION_AUD_TAG"
+ALLOWED_EMAILS = "REPLACE_WITH_YOUR_EMAIL,REPLACE_WITH_BASIRA_EMAIL"
