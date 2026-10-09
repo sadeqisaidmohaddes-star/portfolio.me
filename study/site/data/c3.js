@@ -392,7 +392,7 @@
       "People expect concert ticket prices to rise next month. What happens to demand for tickets today?",
       "مردم انتظار دارند قیمت تکت کنسرت ماه بعد بالا برود. تقاضای تکت امروز چه می‌شود؟",
       [o("Demand today increases.", "تقاضای امروز زیاد می‌شود.", "Yes. Buy now before it gets pricier.", "بلی. حالا بخر قبل از این که گران شود.", 1),
-       o("Demand today decreases.", "تقاضای امروز کم می‌شود.", "That's the seller's move. Buyers rush in, not out.", "این حرکت فروشنده است. خریدار هجوم می‌آورد، نه فرار."),
+       o("Demand today decreases.", "تقاضای امروز کم می‌شود.", "Backwards! Expecting a higher price makes buyers rush in now, not stay away.", "برعکس! انتظار قیمت بالاتر خریداران را همین حالا به خرید می‌کشاند، نه دور."),
        o("Quantity demanded today falls.", "مقدار تقاضاشدهٔ امروز کم می‌شود.", "Today's price didn't change, so it's not a slide.", "قیمت امروز تغییر نکرد، پس لغزیدن نیست.")],
       b("Hearing \"sale ends tonight\" makes you buy now.", "شنیدن «تخفیف امشب تمام می‌شود» تو را حالا به خرید وامی‌دارد."),
       b("Buyers: expect higher → buy now.", "خریدار: انتظار گرانی ← حالا بخر."),
